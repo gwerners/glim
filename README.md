@@ -40,17 +40,17 @@ cd glim
 
 Creating a new search index:
 ```bash
-./glim -d /caminho/para/dir1 -d /caminho/para/dir2 -i glim.idx
+./glim -d /caminho/para/dir1 -i glim.idx
 ```
 
 Search word using an index
 ```bash
-./glim -i glim.idx -e "palavra-chave"
+./glim -i glim.idx -e "image"
 ```
 
 Search word using regular expression as filter
 ```bash
-./glim -i glim.idx -r "\b\d{3}\b"  # Exemplo: busca números de 3 dígitos
+./glim -i glim.idx -e "image" -r "\b\d{3}\b"  
 ```
 
 ## Authors
